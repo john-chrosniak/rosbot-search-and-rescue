@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/robot3/crazyflie_ws/devel/include/**",
+        "/home/robot3/jackal_ws/devel/include/**",
+        "/opt/ros/kinetic/include/**",
+        "/home/robot3/catkin_ws/src/competition/include/**",
+        "/home/robot3/crazyflie_ws/src/crazyflie_ros/crazyflie_cpp/include/**",
+        "/home/robot3/jackal_ws/src/image_pipeline/depth_image_proc/include/**",
+        "/home/robot3/jackal_ws/src/image_pipeline/image_proc/include/**",
+        "/home/robot3/crazyflie_ws/src/my_crazyflie/include/**",
+        "/home/robot3/jackal_ws/src/opencv_apps/include/**",
+        "/home/robot3/crazyflie_ws/src/pd_tuning/include/**",
+        "/home/robot3/catkin_ws/src/rosbot_amr/include/**",
+        "/home/robot3/catkin_ws/src/rosbot_auto_wandering/include/**",
+        "/home/robot3/catkin_ws/src/rosbot_gotogoal/include/**",
+        "/home/robot3/catkin_ws/src/rosbot_obstacle_avoidance/include/**",
+        "/home/robot3/catkin_ws/src/rosbot_teleop/include/**",
+        "/home/robot3/jackal_ws/src/image_pipeline/stereo_image_proc/include/**",
+        "/home/robot3/rosbot_ws/src/teleop_twist_joy/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

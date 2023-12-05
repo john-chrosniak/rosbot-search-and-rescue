@@ -1,0 +1,15 @@
+<launch>
+
+  <node pkg="amr_final_project" type="occupancy_grid.py" name="map" output="screen"> </node>
+
+  <node pkg="amr_final_project" type="motion_planning.py" name="planner" output="screen"> </node>
+
+  <!-- <node pkg="amr_final_project" type="create_scan.cpp" name="create_scan" output="screen"> </node> -->
+
+
+  <node pkg="amr_final_project" type="detect_object.cpp" name="perception" output="screen"> </node>
+  
+  <node pkg="amr_final_project" type="object_markers.py" name="marker_list" output="screen"> </node>
+
+
+</launch>
